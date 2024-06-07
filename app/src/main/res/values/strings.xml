@@ -1,3 +1,43 @@
 <resources>
-    <string name="app_name">OnvifTest</string>
+    <string name="app_name">一指达</string>
+    <string-array name="model_array">
+        <item>best-sim-opt</item>
+        <item>n</item>
+        <item>s</item>
+    </string-array>
+    <string-array name="cpugpu_array">
+        <item>CPU</item>
+        <item>GPU</item>
+    </string-array>
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="device_setting">设备配置</string>
+    <string name="add_device">添加新设备</string>
+    <string name="edit_device">编辑设备</string>
+    <string name="name">设备名称</string>
+    <string name="save_device_name">请输入设备名称,并保存</string>
+    <string name="delete_device">删除</string>
+    <string name="save_device">保存</string>
+    <string name="ip">IP地址</string>
+    <string name="ip_text">请输入IP地址,并保存</string>
+    <string name="x_text">X轴偏移量</string>
+    <string name="y_text">Y轴偏移量</string>
+    <string name="x_hint">请输入X偏移量，并保存</string>
+    <string name="y_hint">请输入Y偏移量，并保存</string>
+    <string name="z_hint">请输入默认缩放倍率，并保存</string>
+    <string name="zoom_text">默认缩放倍率</string>
 </resources>

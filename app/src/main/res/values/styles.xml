@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="CustomSpinnerStyle" parent="Widget.AppCompat.Spinner">
+        <item name="android:background">@drawable/spinner_rounded</item> <!-- 设置背景 -->
+        <item name="android:popupBackground">#262626</item> <!-- 设置下拉框背景 -->
+        <item name="android:popupTheme">@style/CustomSpinnerPopupTheme</item> <!-- 设置下拉框主题 -->
+    </style>
+
+    <style name="CustomSpinnerPopupTheme" parent="ThemeOverlay.AppCompat.Light">
+        <item name="android:textColor">#FFFFFF</item> <!-- 设置选中项文本颜色为白色 -->
+    </style>
+</resources>
